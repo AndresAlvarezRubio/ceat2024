@@ -25,9 +25,6 @@ public class EnunciadoPorcentaje {
         System.out.println("El porcentaje de niñas es de un: " + numNinias*100/numTotal+"%");
 
 
-
-
-
     }
 
 }

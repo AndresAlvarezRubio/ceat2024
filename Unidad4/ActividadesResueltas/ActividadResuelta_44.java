@@ -10,14 +10,25 @@ public class ActividadResuelta_44 {
 
     Scanner sc = new Scanner(System.in);
 
-    comparacion();
+    System.out.print("Introduce el primer número: ");
+    int num1 = sc.nextInt();
 
+    System.out.print("Introduce el segundo número: ");
+    int num2 = sc.nextInt();
+
+    comparacion(num1, num2);
 
   }
 
-  public static void comparacion() {
+  public static void comparacion(int num1, int num2) {
 
-
+    if (num1 != num2) {
+      int resFinal = (num1 < num2) ? num2 : num1;
+      System.out.println("\nEl número de mayor tamaño es: " + resFinal);
+    } else {
+      System.out.println("\nAmbos números son iguales");
+    }
 
   }
+
 }

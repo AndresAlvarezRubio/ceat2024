@@ -382,7 +382,7 @@ h2 {
 .timeline article .content_timeline {
   position: absolute;
   pointer-events: none;
-  padding: 30px;
+  padding: 30px 30px 15px;
   top: -30px;
   left: 80px;
   transition-duration: 0.5s;
@@ -421,4 +421,25 @@ h2 {
   width: 2px;
   height: 100%;
   background-color: white;
+}
+.timeline article:last-child:before {
+  height: calc(100% - 25px);
+}
+.content_timeline .time {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 15px;
+  padding: 5px 15px;
+  width: fit-content;
+  border-radius: 30px;
+  background-color: white;
+  color: #34495E;
+}
+.content_timeline p {
+  margin-bottom: 15px;
+}
+.content_timeline p a{
+  color: white;
 }

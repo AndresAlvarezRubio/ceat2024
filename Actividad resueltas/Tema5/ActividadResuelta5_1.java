@@ -1,4 +1,4 @@
-package ActividadesResueltasRepaso;
+package Tema5;
 
 /**
  * Crear una tabla de longitud 10 que se inicializará con números

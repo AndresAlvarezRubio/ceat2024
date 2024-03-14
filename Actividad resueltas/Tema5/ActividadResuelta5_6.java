@@ -1,8 +1,9 @@
+package Tema5;
 import java.util.Arrays;
 import java.util.Scanner;
 
 //Solicitar una apuesta de 6 números
-public class UnidadResuelta5_6 {
+public class ActividadResuelta5_6 {
 
   static Scanner sc = new Scanner(System.in);
 

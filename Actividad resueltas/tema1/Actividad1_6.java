@@ -1,3 +1,5 @@
+package tema1;
+
 import java.util.Scanner;
 
 public class Actividad1_6 {

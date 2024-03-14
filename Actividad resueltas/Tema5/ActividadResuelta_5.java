@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Actividad_Resuelta_5 {
+public class ActividadResuelta_5 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         mostrar("Indica la longitud de la tabla");

@@ -1,13 +1,9 @@
 import java.util.Scanner;
 
 /**
- * Nombre -> (10 elementos...)
- * Teléfono -> (10 elementos...)
- * Sexo -> (10 elementos...)
- *
- *
- *
- * */
+* Nombre -> (10 elementos...)
+* Teléfono -> (10 elementos...)
+**/
 
 public class PruebaLista {
 

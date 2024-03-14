@@ -108,20 +108,22 @@ public class MaquinaExpendedora {
                     System.out.print((double)Math.round(number * 100d) / 100d);
                     System.out.println("€.\n");
                 }
-            } else if (inputDineroUser < precios[decenas][unidades])System.err.println("\tEl dinero introducido es insuficiente");
+            } else if (inputDineroUser < precios[decenas][unidades])System.err.println("\tEl dinero introducido es insuficiente. Devolviendo cambio...");
         }
     }
     public static void panelAdmin() {
 
         int numUser = 0;
 
-        System.out.println("\t_____________________________________");
-        System.out.println("\t Bienvenido al panel de administrador");
-        System.out.println("\t_____________________________________");
 
         //Elección de producto a rellenar
         do {
-            System.out.print("\t Elija el producto a rellenar: " + (numUser = sc.nextInt()) + "\n\t Pulse -1 para salir del modo administración");
+            System.out.println("\t_____________________________________");
+            System.out.println("\t Bienvenido al panel de administrador");
+            System.out.println("\t_____________________________________");
+            System.out.println("\t Pulse -1 para salir del modo administración");
+            System.out.print("\t Elija el producto a rellenar: ");
+            numUser = sc.nextInt();
 
             int decenas = numUser / 10;
             int unidades = numUser % 10;
